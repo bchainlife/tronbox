@@ -1,6 +1,6 @@
 {
-  "name": "tronbox",
-  "namespace": "tronprotocol",
+  "name": "bebox",
+  "namespace": "bchainlifeprotocol",
   "version": "2.7.18",
   "description": "TronBox - Simple development framework for Tron",
   "keywords": ["TronBox", "TRON", "Solidity", "Truffle", "Contract"],
@@ -51,7 +51,7 @@
     "spawn-args": "^0.1.0",
     "superagent": "^5.1.0",
     "temp": "^0.8.3",
-    "tronweb": "^2.10.0",
+    "tronweb": "https://github.com/bchainlife/tronweb.git",
     "vcsurl": "^0.1.1",
     "web3-mock": "1.0.1",
     "yargs": "^8.0.2"
@@ -76,7 +76,7 @@
     "truffle-blockchain-utils": "^0.0.5"
   },
   "bin": {
-    "tronbox": "build/tronbox.js"
+    "bebox": "build/tronbox.js"
   },
   "repository": {
     "type": "git",
